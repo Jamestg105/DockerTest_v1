@@ -18,22 +18,15 @@ Este projeto é um exercício de estrutura de microsserviços usando Docker. Ele
 - Portas liberadas
   
 ## Estrutura 
-
+```
 DockerTest/
 ├── docker-compose.yml
-
 ├── service1/
-
 │   ├── Dockerfile
-
 │   ├── index.js
-
 │   └── package.json
-
 └── service2/
-
     ├── Dockerfile
-    
     ├── app.py
-    
     └── requirements.txt
+```
